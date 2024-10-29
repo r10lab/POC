@@ -25,10 +25,10 @@ jobs:
           git remote add upstream https://github.com/wy876/POC.git
           git fetch upstream
           git checkout main
-          git merge upstream/main --allow-unrelated-histories
+          git merge upstream/main --allow-unrelated-histories || (git merge --abort && git checkout main && git reset --hard upstream/main)
           
       - name: Push Changes to Fork
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git push origin main
+          git push origin main --force
