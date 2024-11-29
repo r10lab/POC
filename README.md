@@ -1,13 +1,130 @@
 # 漏洞收集
-收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1100多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1200多个poc/exp，善用CTRL+F搜索
 
-## 贡献者 
+## 贡献者（排名不分先后）
 
 感谢以下贡献者为本项目做出的贡献：
 
-<a href="https://github.com/wy876/POC/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=wy876/POC" />
-</a>
+<div><table frame=void>
+	<tr>
+        <td align="center">
+            <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/139549762?v=4&mask=circle&w=60&h=60"
+                   alt="Typora-Logo"
+                 />
+            <br>
+            <a href="https://github.com/wy876"><sub>wy876</sub></a>
+        </td>    
+        <td align="center">
+            <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/90972683?v=4&mask=circle&w=60&h=60"
+                   alt="Typora-Logo"
+                 />
+            <br>
+            <a href="https://github.com/Kazgangap"><sub>Kazgangap</sub></a>
+        </td>    
+        <td align="center">
+            <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/30861754?v=4&mask=circle&w=60&h=60"
+                   alt="Typora-Logo"
+                 />
+            <br>
+            <a href="https://github.com/kukais"><sub>kukais</sub></a>
+        </td> 
+        <td align="center">
+            <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/61577401?v=4&mask=circle&w=60&h=60"
+                   alt="Typora-Logo"
+                 />
+            <br>
+            <a href="https://github.com/yiliufeng168"><sub>yiliufeng168</sub></a>
+        </td> 
+        <td align="center">
+            <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/59686577?v=4&mask=circle&w=60&h=60"
+                   alt="Typora-Logo"
+                 />
+            <br>
+            <a href="https://github.com/WebSafety-2tina"><sub>WebSafety-2tina</sub></a>
+        </td> 
+    </tr>
+    </table>
+</div>
+
+
+## 2024.11.23 新增漏洞
+
+- [SRM智联云采系统inquiry存在SQL注入漏洞](./智互联科技有限公司/SRM智联云采系统inquiry存在SQL注入漏洞.md)
+- [SRM智联云采系统quickReceiptDetail存在SQL注入漏洞](./智互联科技有限公司/SRM智联云采系统quickReceiptDetail存在SQL注入漏洞.md)
+- [SRM智联云采系统getSuppliers存在SQL注入漏洞](./智互联科技有限公司/SRM智联云采系统getSuppliers存在SQL注入漏洞.md)
+- [SRM智联云采系统receiptDetail存在SQL注入漏洞](./智互联科技有限公司/SRM智联云采系统receiptDetail存在SQL注入漏洞.md)
+- [SRM智联云采系统statusList存在SQL注入漏洞](./智互联科技有限公司/SRM智联云采系统statusList存在SQL注入漏洞.md)
+- [微信活码系统updateInfos前台未授权任意用户密码修改](./微信活码系统/微信活码系统updateInfos前台未授权任意用户密码修改.md)
+- [微信活码系统后台任意内容写入](./微信活码系统/微信活码系统后台任意内容写入.md)
+- [百择唯供应链存在RankingGoodsList2存在SQL注入漏洞](./百择唯供应链/百择唯供应链存在RankingGoodsList2存在SQL注入漏洞.md)
+- [百择唯供应链存在ReadAfterSaleList存在SQL注入漏洞](./百择唯供应链/百择唯供应链存在ReadAfterSaleList存在SQL注入漏洞.md)
+- [百择唯供应链存在SearchOrderByParams存在SQL注入漏洞](./百择唯供应链/百择唯供应链存在SearchOrderByParams存在SQL注入漏洞.md)
+- [PAN-OS软件中存在权限提升漏洞(CVE-2024-9474)](./PAN-OS/CVE-2024-9474.md)
+- [数字通云平台的智慧政务系统存在登录绕过漏洞](./数字通OA/数字通云平台的智慧政务系统存在登录绕过漏洞.md)
+- [万能门店小程序doPageGetFormList存在sql注入漏洞](/万能门店小程序/万能门店小程序doPageGetFormList存在sql注入漏洞.md)
+- [索贝融媒体search存在SQL注入漏洞](./成都索贝数码科技/索贝融媒体search存在SQL注入漏洞.md)
+- [海信智能公交企业管理系统apply.aspx存在SQL注入漏洞](./海信/海信智能公交企业管理系统apply.aspx存在SQL注入漏洞.md)
+- [东胜物流软件CertUpload文件上传漏洞](./东胜物流软件/东胜物流软件CertUpload文件上传漏洞.md)
+- [任子行网络安全审计系统log_fw_ips_scan_jsondata接口存在SQL注入漏洞](./任子行/任子行网络安全审计系统log_fw_ips_scan_jsondata接口存在SQL注入漏洞.md)
+- [D-Link-NAS接口sc_mgr.cgi存在命令执行漏洞](./D-Link/D-Link-NAS接口sc_mgr.cgi存在命令执行漏洞.md)
+- [Altenergy电力系统控制软件status_zigbee存在SQL注入漏洞](./电力系统控制软件/Altenergy电力系统控制软件status_zigbee存在SQL注入漏洞.md)
+- [任我行协同CRM普及版Edit存在SQL注入漏洞](./任我行/任我行协同CRM普及版Edit存在SQL注入漏洞.md)
+- [紫光档案管理系统mergeFile存在SQL注入漏洞](./紫光电子档案管理系统/紫光档案管理系统mergeFile存在SQL注入漏洞.md)
+- [购物商城系统commodtiy存在任意SQL注入漏洞](./购物商城系统/购物商城系统commodtiy存在任意SQL注入漏洞.md)
+- [微信万能门店小程序系统_requestPost存在任意文件读取漏洞](./万能门店小程序/微信万能门店小程序系统_requestPost存在任意文件读取漏洞.md)
+- [致翔OA系统接口open_juese存在SQL注入漏洞](./致翔OA/致翔OA系统接口open_juese存在SQL注入漏洞.md)
+- [资产管理运营系统mobilefront2前台文件上传漏洞](./资管云/资产管理运营系统mobilefront2前台文件上传漏洞.md)
+
+## 2024.11.16 新增漏洞
+
+- [通达OA前台submenu.php存在SQL注入漏洞(CVE-2024-10600)](./通达OA/通达OA前台submenu.php存在SQL注入漏洞(CVE-2024-10600).md)
+- [D-Link-NAS接口account_mg存在命令执行漏洞(CVE-2024-10914)](./D-Link/D-Link-NAS接口account_mg存在命令执行漏洞(CVE-2024-10914).md)
+- [珠海市安克电子技术有限公司医疗急救管理系统存在SQL注入漏洞](./安克电子技术/珠海市安克电子技术有限公司医疗急救管理系统存在SQL注入漏洞.md)
+- [用友YonBIP高级版yonbiplogin存在任意文件读取漏洞](./用友OA/用友YonBIP高级版yonbiplogin存在任意文件读取漏洞.md)
+- [九思OA接口dl.jsp任意文件读取漏洞](./九思OA/九思OA接口dl.jsp任意文件读取漏洞.md)
+- [东胜物流软件GetDataListCA存在SQL注入漏洞](./东胜物流软件/东胜物流软件GetDataListCA存在SQL注入漏洞.md)
+- [企望制造ERP系统drawGrid.action存在SQL漏洞](./企望制造ERP/企望制造ERP系统drawGrid.action存在SQL漏洞.md)
+- [全新优客API接口管理系统doc存在SQL注入漏洞](./优客API接口管理系统/全新优客API接口管理系统doc存在SQL注入漏洞.md)
+- [海信智能公交企业管理系统OrgInfoMng.aspx存在SQL注入漏](./海信/海信智能公交企业管理系统OrgInfoMng.aspx存在SQL注入漏洞.md)
+- [美团代付微信小程序系统read.php任意文件读取漏洞](./美团代付微信小程序系统/美团代付微信小程序系统read.php任意文件读取漏洞.md)
+- [微信公众号商家收银台小程序系统存在前台SQL注入漏洞](./微信公众号商家收银台小程序系统/微信公众号商家收银台小程序系统存在前台SQL注入漏洞.md)
+- [赛普EAP企业适配管理平台Upload存在任意文件上传漏洞](./赛普/赛普EAP企业适配管理平台Upload存在任意文件上传漏洞.md)
+- [中成科信票务管理系统UploadHandler.ashx任意文件上传漏洞](./中成科信票务管理系统/中成科信票务管理系统UploadHandler.ashx任意文件上传漏洞.md)
+- [帕拉迪堡垒机sslvpnservice.php存在SQL注入漏洞](./帕拉迪堡垒机/帕拉迪堡垒机sslvpnservice.php存在SQL注入漏洞.md)
+- [FortiManager身份认证绕过漏洞(CVE-2024-47575)](./FortiManager/FortiManager身份认证绕过漏洞(CVE-2024-47575).md)
+- [WordPress的Meetup插件身份验证绕过漏洞(CVE-2024-50483)](./WordPress/WordPress的Meetup插件身份验证绕过漏洞(CVE-2024-50483).md)
+
+## 2024.11.08 新增漏洞
+
+- [Vben-Admin存在硬编码漏洞](./Vben-Admin/Vben-Admin存在硬编码漏洞.md)
+- [F22服装管理软件系统Load存在任意文件读取漏洞](./广州锦铭泰软件/F22服装管理软件系统Load存在任意文件读取漏洞.md)
+- [明源地产ERP系统WFWebService存在反序列化漏洞](./明源云/明源地产ERP系统WFWebService存在反序列化漏洞.md)
+- [蓝凌OA-EKP系统接口hrStaffWebService存在任意文件读取漏洞](./蓝凌OA/蓝凌OA-EKP系统接口hrStaffWebService存在任意文件读取漏洞.md)
+- [泛微E-Cology9平台QRcodeBuildAction存在身份认证绕过导致SQL注入漏洞](./泛微OA/泛微E-Cology9平台QRcodeBuildAction存在身份认证绕过导致SQL注入漏洞.md)
+- [亿赛通CDG电子文档安全管理系统DelHookService存在sql注入漏洞(CVE-2024-10660)](./亿赛通电子文档安全管理系统/亿赛通CDG电子文档安全管理系统DelHookService存在sql注入漏洞(CVE-2024-10660).md)
+- [易思智能物流无人值守系统ExportReport存在SQL注入漏洞](./易思智能物流无人值守系统/易思智能物流无人值守系统ExportReport存在SQL注入漏洞.md)
+- [易思智能物流无人值守系统login存在SQL注入漏洞](./易思智能物流无人值守系统/易思智能物流无人值守系统login存在SQL注入漏洞.md)
+- [易思智能物流无人值守系统DownFile任意文件读取漏洞](./易思智能物流无人值守系统/易思智能物流无人值守系统DownFile任意文件读取漏洞.md)
+- [H3C-CVM-fd接口前台任意文件上传漏洞复现](./H3C/H3C-CVM-fd接口前台任意文件上传漏洞复现.md)
+- [东胜物流软件AttributeAdapter.aspx存在SQL注入漏洞](./东胜物流软件/东胜物流软件AttributeAdapter.aspx存在SQL注入漏洞.md)
+- [ArcGIS地理信息系统任意文件读取漏洞](./ArcGIS/ArcGIS地理信息系统任意文件读取漏洞.md)
+- [EyouCMS文件包含RCE漏洞](./EyouCMS/EyouCMS文件包含RCE漏洞.md)
+- [宏景人力资源信息管理系统uploadLogo存在任意文件上传漏洞](./宏景OA/宏景人力资源信息管理系统uploadLogo存在任意文件上传漏洞.md)
+- [顺景ERP管理系统UploadInvtSpBuzPlanFile存在任意文件上传漏洞](./顺景ERP/顺景ERP管理系统UploadInvtSpBuzPlanFile存在任意文件上传漏洞.md)
+- [顺景ERP管理系统FileUpload存在任意文件上传漏洞](./顺景ERP/顺景ERP管理系统FileUpload存在任意文件上传漏洞.md)
+- [全程云OA系统QCPES.asmx存在SQL注入漏洞](./全程云OA/全程云OA系统QCPES.asmx存在SQL注入漏洞.md)
+- [ZKBioSecurity存在shiro反序列漏洞](./ZKBioSecurity/ZKBioSecurity存在shiro反序列漏洞.md)
+- [美特CRM系统接口sync_emp_weixin存在反序列化漏洞](./美特CRM系统/美特CRM系统接口sync_emp_weixin存在反序列化漏洞.md)
+- [索贝融媒体存在硬编码漏洞](./成都索贝数码科技/索贝融媒体存在硬编码漏洞.md)
+- [金蝶EAS存在appUtil.jsp命令执行漏洞](./金蝶/金蝶EAS存在appUtil.jsp命令执行漏洞.md)
+- [明源云ERP接口VisitorWeb_XMLHTTP.aspx存在SQL注入漏洞](./明源云/明源云ERP接口VisitorWeb_XMLHTTP.aspx存在SQL注入漏洞.md)
+- [聚合支付平台接口sdcustomno存在SQL注入漏洞](./聚合支付/聚合支付平台接口sdcustomno存在SQL注入漏洞.md)
+- [苹果IOS端IPA签名工具Sign.php前台任意命令执行漏洞](./分发签名系统/苹果IOS端IPA签名工具Sign.php前台任意命令执行漏洞.md)
+- [和信创天云桌面系统newserver远程命令执行漏洞](./和信创天/和信创天云桌面系统newserver远程命令执行漏洞.md)
+- [金航网上阅卷系统fileUpload任意文件上传漏洞](./EDU/衡水金航/金航网上阅卷系统fileUpload任意文件上传漏洞.md)
+- [HANDLINK-ISS-7000v2网关login_handler.cgi未授权RCE漏洞](./瀚霖科技股份有限公司/HANDLINK-ISS-7000v2网关login_handler.cgi未授权RCE漏洞.md)
+- [电信网关配置管理后台upload_channels.php接口存在文件上传漏洞](./电信网关配置管理/电信网关配置管理后台upload_channels.php接口存在文件上传漏洞.md)
+- [爱数AnyShare智能内容管理平台Usrm_GetAllUsers信息泄露漏洞](./上海爱数信息/爱数AnyShare智能内容管理平台Usrm_GetAllUsers信息泄露漏洞.md)
 
 ## 2024.11.02 新增漏洞
 
